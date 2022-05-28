@@ -1,0 +1,14 @@
+.view-section{
+    flex-direction: column;
+    height: 700px;
+}
+
+.honor-title img{
+    width: 400px; height: 80px;
+    object-fit: contain;
+}
+
+.honor-container{
+    width: 80%; height: 65%;
+    overflow: auto;
+}
