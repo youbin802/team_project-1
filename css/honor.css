@@ -3,12 +3,87 @@
     height: 700px;
 }
 
+/* 명예의 전당 헤더 */
 .honor-title img{
     width: 400px; height: 80px;
     object-fit: contain;
 }
 
+.honor-img{
+    margin-bottom: 2.1em;
+}
+
+.gold{
+    background: linear-gradient(#ffdc02, #e2c401, #ffdc02);
+    padding: 1.2em;
+    margin: 0 .8em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+.gold p{
+    font-size: 20px;
+}
+
+/* 명예의 전당 내용 */
+
 .honor-container{
-    width: 80%; height: 65%;
+    width: 90%; height: 65%;
     overflow: auto;
+}
+
+.h-card{
+    padding: 2.1rem 6rem;
+    /* margin:  .8em 0; */
+    position: relative;
+    justify-content: space-evenly;
+    transition: all .2s;
+}
+
+.h-card p{
+    display: inline-block;
+}
+
+/* 채팅 */
+.h-card .chat-btn{
+    position: absolute;
+    bottom: 5px; right: 10px;
+}
+
+.chat{
+    height: 200px;
+    flex-direction: column;
+}
+
+.chat img{
+    width: 50px; height: 50px;
+}
+
+.chat .writer{
+    margin-bottom: 1.2em;
+}
+
+.chat .w-chat{
+    margin: 1.2em .8em;
+}
+
+.w-chat-submit{
+    margin-top: 3em;
+}
+
+.chat input{
+    width: 90%;
+    border: .7px solid #ddd;
+    padding: .4em 1.2em;
+}
+
+.w-chat-submit>button{
+    border: 1px solid rgb(103, 103, 103);
+    padding: .4em .8em !important;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.w-chat-submit>button:hover{
+    background-color: rgb(226, 226, 226);
 }
