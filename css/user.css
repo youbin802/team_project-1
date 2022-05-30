@@ -1,0 +1,39 @@
+/* 유저페이지 */
+.view-section {
+    position: relative;
+}
+
+
+.user-box {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    bottom: 100px;
+}
+
+.user-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.user-text {
+    padding: 20px;
+}
+
+/* 유저페이지 업로드 */
+.upload-group {
+    width: 100%; 
+    position: absolute;
+    overflow: auto;
+    height: 500px;
+    padding-top: 20px;
+    top: -200px;
+
+}
+
+.upload-group .card {
+    width: 320px;
+    height: 250px;
+}

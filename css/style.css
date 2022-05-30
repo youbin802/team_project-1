@@ -89,10 +89,10 @@ p {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    overflow: auto;
-    height: 700px;
+    overflow: hidden;
+    width: 100%;
 }
 
 .project-select {
@@ -101,7 +101,33 @@ p {
     z-index: 10;
 }
 
+.best-group {
+    width: 1111px;
+    height: 300px;
+}
 
+.best-group .card {
+    height: 250px
+}
+
+.best-group .card img {
+    width: 150px;
+    height: 100px;
+}
+
+.notice-item {
+    height: 150px !important;
+}
+
+.notice-subitem {
+    height: 100%;
+}
+
+.notice-group {
+    height: 300px;
+    overflow: auto;
+    overflow-x: hidden;
+}
 /* header 영역 */
 
 header {
@@ -173,10 +199,10 @@ header {
     height: 300px !important;
 } */
 
-.lunch .card,
-.project .card,
 .notice .card,
-.calrandar .card {
+.best .card,
+.project .card,
+.lunch .card {
     height: 100%;
 }
 
@@ -192,4 +218,87 @@ header {
     width: 500px;
     border: 1px solid #000;
     border-radius: 5px;
+}
+
+/* 유저페이지 */
+.view-section {
+    position: relative;
+}
+
+.user-box {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    bottom: 100px;
+}
+
+.user-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.user-text {
+    padding: 20px;
+}
+
+/* 유저페이지 업로드 */
+.upload-group {
+    width: 100%;
+    position: absolute;
+    overflow: auto;
+    height: 500px;
+    padding-top: 20px;
+    top: -200px;
+
+}
+
+.upload-group .card {
+    width: 320px;
+    height: 250px;
+}
+
+/* index.html 게시판, 명예의 전당, 작품실, 급식  */
+.row .card {
+    overflow: hidden;
+    /* height: ; */
+}
+
+
+/* 작품실 */
+.proj-group {
+    display: flex;
+}
+
+.proj-box {
+    width: 150px;
+    height: 200px;
+    border: 1px solid;
+    margin: 13px;
+}
+
+/* 급식 */
+.lunch-group {
+    padding-top: 10px;
+    display: flex;
+    padding-top: 55px;
+}
+
+.lunch ul {
+    padding-left: 1rem;
+}
+
+.lunch-menu {
+    width: 200px;
+    overflow: auto;
+    height: 130px;
+}
+
+.lunch-img {
+    padding-left: 10px;
+}
+
+.bh{
+    height: 300px;
 }

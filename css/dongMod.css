@@ -1,0 +1,46 @@
+.img-container .slide-img a{
+    border: 2px solid #000;
+    border-right: none;
+}
+
+.img-container .slide-img a:last-child{
+    border-right: 2px solid #000;
+}
+
+.honor-bg{
+    background-color: #fff;
+}
+
+.honor-title .honor-img{
+    margin-bottom: 1.2rem;
+}
+
+.honor-border{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0 .6em;
+    /* border-radius: 5px; */
+}
+
+.h-card{
+    margin: .6em 0;
+}
+
+
+.chat-btn{
+    font-size: 12px;
+}
+
+.chat-btn:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.honor-container .h-card{
+    padding: 2.4rem 1.5rem;
+}
+
+
+
+
+.h-text{
+    width: 100%;
+}

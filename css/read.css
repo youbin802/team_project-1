@@ -1,0 +1,72 @@
+.comment{
+    width: 100%; height: 35%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.my-contents{
+    height: 250px;
+    /* overflow: auto; */
+    border: 1px solid #000;
+}
+
+.writer a img{
+    width: 40px; height: 40px;
+    border-radius: 50%;
+}
+
+.chat-content{
+    width: 100%; height: 150px;
+    overflow: auto;
+    border: 1px solid #000;
+}
+
+.chat-box{
+    padding-bottom: .8em;
+}
+
+.chat-submit {
+    display: flex;
+}
+
+.chat-submit button {
+    margin-left: 10px;
+}
+
+.title {
+    position: relative;
+}
+
+.title .col{
+    position: absolute;
+}
+
+.title .col {
+    position: absolute;
+}
+
+.title .col .profile-img{
+    width: 28px;
+    height: 28px;
+}
+
+.view-section2 {
+    height: 740px;
+}
+
+.my-project2{
+    margin: 1.2em 1.2em 0;
+    height: 612px;
+    padding: .8em;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.my-project2 .title{ /* 프로젝트 제목 */
+    border-bottom: 1px solid #ddd;
+    padding: .8em 0;
+}
+
+.my-project2 .title p{
+    text-align: right;
+}

@@ -109,7 +109,7 @@
 }
 
 .my-project .title{ /* 프로젝트 제목 */
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #ddd;
     padding: .8em 0;
 }
 
